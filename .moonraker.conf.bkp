@@ -46,6 +46,10 @@ install_script = install.sh
 [file_manager]
 enable_object_processing = True
 
+[spoolman]
+server = http://192.168.1.107:7912
+sync_rate = 5
+
 [update_manager belay]
 type = git_repo
 path = ~/belay_klippy_module
